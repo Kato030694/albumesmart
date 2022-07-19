@@ -1,0 +1,33 @@
+/* GIỚI THIÊỤ */
+.gt-1-1 {
+  background-image: url(./../../images/canvas/1.jpg) !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.gt-1-2 {
+  background-image: url(./../../images/canvas/2.jpg) !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* MINH */
+.btc-1-1 {
+  background-image: url(./../../images/canvas/to_minh/minh.jpg) !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* LONG ẨN */
+.btc-2-1 {
+  background-image: url(./../../images/canvas/long_an/an.jpg) !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* KHÁNH VY */
+.btc-3-1{background-image: url(./../../images/canvas/khanhvy/vy.jpg) !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

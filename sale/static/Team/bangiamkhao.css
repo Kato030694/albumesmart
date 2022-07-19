@@ -1,0 +1,55 @@
+/* A THUẬN */
+.gt-1-1 {
+  background-image: url(./../../images/canvas/1.jpg) !important;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.gt-1-2 {
+  background-image: url(./../../images/canvas/2.jpg) !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* A THUẬN */
+.btc-1-1 {
+  background-image: url(./../../images/canvas/Ban_To_Chuc/trinh_thuan/thuan.jpg) !important;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* Đô My*/
+.btc-2-1 {
+  background-image: url(./../../images/canvas/Ban_To_Chuc/do_my/domi.jpg) !important;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* HÀ TRANG */
+.btc-3-1 {
+  background-image: url(./../../images/canvas/Ban_To_Chuc/Ha_Trang/trang.jpg) !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* KALI */
+.btc-4-1 {
+  background-image: url(./../../images/canvas/Ban_To_Chuc/ka_li/kali.jpg) !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* NGUYÊN*/
+.btc-5-1 {
+  background-image: url(./../../images/canvas/Ban_To_Chuc/nguyen/nguyen.jpg) !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* QUỲNH THU */
+.btc-6-1 {
+  background-image: url(./../../images/canvas/Ban_To_Chuc/quynh_thu/thu.jpg) !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

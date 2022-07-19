@@ -1,0 +1,78 @@
+/* A Si */
+.btc-1-1 {
+  background-image: url(./../../images/canvas/Ban_To_Chuc/Persi/asi_3.jpg);
+  z-index:6;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.btc-1-2 {
+  background-image: url(./../../images/canvas/Ban_To_Chuc/Persi/asi_2.jpg) !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.btc-1-3 {
+  background-image: url(./../../images/canvas/Ban_To_Chuc/Persi/asi_4.jpg) !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* A NGHĨA */
+.btc-2-1 {
+  background-image: url(./../../images/canvas/Ban_To_Chuc/Anh_Nghia/anh_nghia_4.jpg) !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.btc-2-2 {
+  background-image: url(./../../images/canvas/Ban_To_Chuc/Anh_Nghia/anh_nghia_2.jpg) !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.btc-2-3 {
+  background-image: url(./../../images/canvas/Ban_To_Chuc/Anh_Nghia/anh_nghia_1.jpg) !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* A THUẬN */
+.btc-3-1 {
+  background-image: url(./../../images/canvas/Ban_To_Chuc/trinh_thuan/thuan_1.jpg) !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.btc-3-2 {
+  background-image: url(./../../images/canvas/Ban_To_Chuc/trinh_thuan/thuan_2.jpg) !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.btc-3-3 {
+  background-image: url(./../../images/canvas/Ban_To_Chuc/trinh_thuan/thuan_3.jpg) !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* HỒNG VÂN */
+.btc-4-1 {
+  background-image: url(./../../images/canvas/Ban_To_Chuc/hong_van/van_2.jpg) !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.btc-4-2 {
+  background-image: url(./../../images/canvas/Ban_To_Chuc/hong_van/van_1.jpg) !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.btc-4-3 {
+  background-image: url(./../../images/canvas/Ban_To_Chuc/hong_van/van_3.jpg) !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

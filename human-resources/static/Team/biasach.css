@@ -1,0 +1,18 @@
+.background_chung {
+  background-image: url(./../../images/canvas/bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.page-first {
+  background-image: url(./../../images/canvas/STQL_ebook-1.jpg) !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.page-end {
+  background-image: url(./../../images/canvas/STQL_ebook-10.jpg) !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

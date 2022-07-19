@@ -1,0 +1,34 @@
+/* GIỚI THIỆU*/
+.gt-1 {
+  background-image: url(./../../images/canvas/1.jpg) !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.gt-2 {
+  background-image: url(./../../images/canvas/2.jpg) !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* NHƯ THẢO */
+.btc-1-1 {
+  background-image: url(./../../images/canvas/nhu_thao/thao.jpg) !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* NGỌC GIÀU */
+.btc-2-1 {
+  background-image: url(./../../images/canvas/ngoc_giau/giau.jpg) !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* Khánh Linh*/
+.btc-3-1 {
+  background-image: url(./../../images/canvas/khanh_linh/linh.jpg) !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

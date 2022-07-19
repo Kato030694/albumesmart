@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+  <link rel="stylesheet" href="./customer-support/static/demoStyle3.css" />
+  <script src="https://kit.fontawesome.com/aedb23f2ae.js" crossorigin="anonymous"></script>
+  <link rel="shortcut icon" type="image/jpg" href="./customer-support/icons/Logo-04.png" />
+  <link rel="stylesheet" href="customer-support/static/font-size.css" />
+
+  <link rel="stylesheet" href="./customer-support/static/Team/biasach.css" />
+  <link rel="stylesheet" href="./customer-support/static/Team/bangiamkhao.css" />
+  <link rel="stylesheet" href="./customer-support/static/Team/informe.css" />
+  <!-- Table of content (mục lục) -->
+  <title>eSmart - Hỗ Trợ Khách Hàng</title>
+  <meta name="description"
+    content="Powerful, simple and flexible JS Library for creating realistic and beautiful page turning effect." />
+  <meta property="og:image" content">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+    </style>
+</head>
+
+<body>
+  <div class="demo-block bg-light-1 pt-3 pb-3 overflow-hidden">
+    <div class="container mb-3" id="buttonDemoSelection">
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="btn-group" role="group" aria-label=""></div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div id="bookParent">
+          <div id="htmlBook">
+            <!-- BAN TỔ CHỨC -->
+            <!-- HỒNG ÂN -->
+            <section>
+              <div class="flip-book html-book" id="htmlBookExample">
+                <div class="page page-cover page-cover-top" data-density="hard">
+                  <div class="page-content page-first"></div>
+                </div>
+                <div class="page padding-page-text gt-1">
+                  <div class="page-content about_me">
+                    <!-- <p><i class="fas fa-user-tie color_icons"></i> Persi Dũng - HR Manager</p> -->
+                    <div class="page-text"></div>
+                  </div>
+                </div>
+                <div class="page padding-page-text gt-2">
+                  <div class="page-content about_me">
+                    <!-- <p><i class="fas fa-user-tie color_icons"></i> Persi Dũng - HR Manager</p> -->
+                    <div class="page-text"></div>
+                  </div>
+                </div>
+          <!-- TUẤN PHONG -->
+          <section>
+            <div class="flip-book html-book" id="htmlBookExample">
+            </div>
+            <div class="page padding-page-text btc-4-1">
+              <div class="page-content about_me color_text">
+                <!-- <p><i class="fas fa-user-tie color_icons"></i> Trịnh Thuận - Business Manager</p> -->
+                <div class="page-text"></div>
+              </div>
+            </div>
+        <div class="page padding-page-text background_chung black-color">
+          <div class="page-content">
+            <div class="page-text content-black-color font-size-1">
+              <!-- <h5>Tuấn Phong</h5> -->
+              <p>
+              <p style="line-height:1.4">Xin chào mọi người, mình tên Phong – nv mới của công ty</p>
+              <p style="line-height:1.4">Được làm việc cùng mọi người là niềm vui, Trong mùa covid thì mong mọi người
+                đừng
+                “xa lánh”, mặc dù không thể “hòa quyện” nhưng ta có thể hiểu nhau hơn qua 3G hoặc wifi.</p>
+              <p style="line-height:1.4">
+                Mình sinh ra ở nơi giáp 2 tỉnh có biển là Bình Thuận và Vũng Tàu, nên được thừa hưởng sự mặn mòi của 2
+                vùng
+                biển. Ưu điểm của mình là biết chạy vào nhà lúc trời mưa, không đi dép trái và có xe đạp riêng. Nói giỡn
+                chứ, mình thích hài hước và nổi loạn. Mình có sở thích là trang trí làm đẹp không gian, ai có nhu cầu
+                thì
+                liên hệ mình.hihi. Nhược điểm là lười đọc sách nên hôm nay mình đến với eSmart để thay đổi bản thân.
+              </p>
+              <p style="line-height:1.4">
+                Mình được mệnh danh là “Người mang cô đơn đi”. Ai chơi với mình sẽ hết cô đơn. Mong được làm quen mọi
+                người!
+              </p>
+              </p>
+            </div>
+          </div>
+        </div>
+        </section>
+        <!-- END TUẤN PHONG -->
+      </div>
+      <!-- END BAN TỔ CHỨC -->
+
+      <div class="page page-cover page-cover-bottom page-end" data-density="hard">
+        <div class="page-content">
+          <!-- <h2>THE END</h2> -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="canvasBook" style="display: none">
+    <div class="flip-book canvas-book" id="canvasBookExample"></div>
+  </div>
+  </div>
+  </div>
+
+  <div class="container">
+    <div class="text-center mt-3 mb-2">
+      <button type="button" class="btn btn-info btn-sm btn-book-prev" id="prevLink">
+        <i class="fas fa-angle-double-left"></i>
+      </button>
+      [<span class="page-count">1</span> of
+      <span class="page-total">-</span>]
+      <button type="button" class="btn btn-info btn-sm btn-book-next" id="nextLink">
+        <i class="fas fa-angle-double-right"></i></i>
+      </button>
+    </div>
+  </div>
+  </div>
+
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+  <script src="./customer-support/static/pageDemo3.bundle.js"></script>
+  <!-- Yandex.Metrika counter -->
+  <script type="text/javascript">
+    (function (m, e, t, r, i, k, a) {
+      m[i] =
+        m[i] ||
+        function () {
+          (m[i].a = m[i].a || []).push(arguments);
+        };
+      m[i].l = 1 * new Date();
+      (k = e.createElement(t)),
+        (a = e.getElementsByTagName(t)[0]),
+        (k.async = 1),
+        (k.src = r),
+        a.parentNode.insertBefore(k, a);
+    })(
+      window,
+      document,
+      "script",
+      "https://mc.yandex.ru/metrika/tag.js",
+      "ym"
+    );
+
+    ym(64530565, "init", {
+      clickmap: true,
+      trackLinks: true,
+      accurateTrackBounce: true,
+    });
+  </script>
+  <script type="text/javascript">
+    document.addEventListener("keyup", function (e) {
+      var key = e.which || e.keyCode;
+      switch (key) {
+        // Left arrow
+        case 37:
+          document.getElementById("prevLink").click();
+          break;
+        case 39:
+          document.getElementById("nextLink").click();
+          break;
+
+      }
+    })
+  </script>
+  <noscript>
+    <divcanvasBookExample>
+      <img src="https://mc.yandex.ru/watch/64530565" style="position: absolute; left: -9999px" alt="" />
+    </divcanvasBookExample>
+  </noscript>
+  <!-- /Yandex.Metrika counter -->
+  <!-- Place this tag in your head or just before your close body tag. -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/gh/AngeloFaella/DocumentOutline@1.0/DocumentOutline.js"></script>
+</body>
+
+</html>

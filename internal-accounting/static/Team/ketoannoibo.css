@@ -1,0 +1,34 @@
+/* GIỚI THIỆU*/
+.gt-1 {
+  background-image: url(./../../images/canvas/1.jpg) !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.gt-2 {
+  background-image: url(./../../images/canvas/2.jpg) !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* Anh Nghĩa */
+.team1_1_1 {
+    background-image: url(./../../images/canvas/Anh_Nghia/nghia.jpg) !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  /* Kim Hồng */
+.team1_2_1 {
+  background-image: url(./../../images/canvas/kim_hong/hong.jpg) !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* NHƯ Ý */
+.team1_3_1 {
+  background-image: url(./../../images/canvas/nhu_y/y.jpg) !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

@@ -1,0 +1,336 @@
+.font-size-1 p {
+  font-size: 16.5px;
+  color: black;
+  font-family: 'Dancing Script', cursive;
+}
+/* Responsive */
+@media only screen and (max-width: 420px) {
+  .hide_content{
+    display: none;
+  }
+  .font-size-1 p {
+    font-size: 8.5px;
+  }
+  .edit-content-page p {
+    line-height: 1.5;
+  }
+  .content-black-color h6 {
+    font-size: 13px;
+    font-weight: bold;
+  }
+  .content-black-color p {
+    margin-bottom: 10px;
+  }
+  .edit-page-3 {
+    text-align: left;
+  }
+  .page-4 .edit-picture img {
+    width: 170px;
+    height: 130px;
+  }
+  .page .page-content .page-footer-3 {
+    font-size: 65%;
+  }
+  .edit-page-5 {
+    text-align: left;
+  }
+  .page-5 .edit-picture img {
+    width: 200px;
+    height: 160px;
+  }
+  .page.--right .page-footer-4 {
+    text-align: right;
+  }
+  .page.--right .page-footer-5 {
+    text-align: left;
+  }
+
+  .page .page-content .page-text {
+    font-size: 62%;
+  }
+  .page .page-content .page-footer-4 {
+    font-size: 65%;
+  }
+  .black-color li {
+    line-height: 1.4;
+  }
+  .page-6 p {
+    margin-bottom: 8px;
+  }
+  .page .page-content .page-footer {
+    font-size: 65%;
+  }
+  .page-text-7 li {
+    line-height: 1.4;
+  }
+  .page-7 .page-7-header {
+    line-height: 1.5;
+    margin-bottom: 5px;
+  }
+  .bg-content {
+    margin: 2% auto;
+    width: 85%;
+  }
+  .content_page_8 h5 {
+    font-size: 12px;
+  }
+  .edit-content-page {
+    width: 78%;
+    margin-left: 20%;
+  }
+  .page .page-content .page-text {
+    padding-top: 0;
+  }
+}
+@media only screen and (max-width: 459px) and (min-width: 421px) {
+  .font-size-1 p {
+    font-size: 11px;
+  }
+  .edit-content-page {
+    margin-left: 18%;
+    width: 78%;
+  }
+  p {
+    margin-bottom: 5px;
+  }
+  .page-4 .edit-picture img {
+    width: 215px;
+    height: 170px;
+  }
+  .page .page-content .page-footer-3, .page .page-content .page-footer-4{
+      height: 8px;
+  }
+  .content-black-color-page-4{
+      margin-top: 0;
+  }
+  .content-black-color-page-4 li{
+      font-size: 11px;
+  }
+  .page-5 .edit-picture img{
+    width: 250px;
+    height: 210px;
+  }
+  .page-footer .page-footer-5 .number-5{
+    text-align: left;
+  }
+  .page .page-content .page-footer-7{
+    height:8px
+  }
+  .page-text-7 li{
+    font-size: 11px;
+  }
+  .bg-content{
+    margin: 0 auto;
+    width: 85%;
+  }
+  .content_page_8 h5{
+    font-size: 16px;
+  }
+  .content_page_8 hr{
+    margin: 0 auto;
+  }
+  .content_page_8 ul{
+    margin-top: 5px;
+  }
+  .content_page_8 li{
+    font-size: 11px;
+  }
+}
+@media only screen and (max-width: 499px) and (min-width: 460px) {
+  .font-size-1 p {
+    font-size: 11.5px;
+  }
+  .content-black-color {
+    margin-bottom: 10px;
+  }
+  .edit-content-page {
+    width: 80%;
+    margin-left: 15%;
+  }
+  .page-4 .edit-picture img {
+    width: 200px;
+    height: 130px;
+  }
+  .page-5 .edit-picture img {
+    width: 245px;
+    height: 200px;
+  }
+  .content-black-color-page-4 {
+    margin-bottom: 7%;
+  }
+  .content-black-color-page-4 ul {
+    margin-bottom: 10px;
+  }
+  .content-black-color-page-4 li {
+    font-size: 11.5px;
+    line-height: 1.4;
+  }
+  .content-black-color-page-4 p {
+    margin-bottom: 7px;
+  }
+  .content-black-color-page-4 .turn_off_margin {
+    margin-bottom: 0;
+  }
+  .page.--right .page-footer-5 {
+    text-align: left;
+  }
+  .page-6 p {
+    line-height: 1.4;
+    font-size: 10.5px;
+  }
+  .page-6-edit {
+    margin-bottom: 16%;
+  }
+  .page-text-7 li {
+    font-size: 11.5px;
+    line-height: 1.4;
+  }
+  .page-text-7 ul {
+    margin-bottom: 10px;
+  }
+  .page-7 .page-7-header {
+    line-height: 1.4;
+    margin-bottom: 5px;
+  }
+  /* TIÊU CHUẨN VÀ TÍNH CÁCH */
+  .bg-content {
+    margin: 0 auto;
+    width: 90%;
+  }
+  .content_page_8 h5 {
+    font-size: 16px;
+  }
+  .content_page_8 li {
+    font-size: 10.5px;
+  }
+  .page-footer-7 {
+    height: 10px;
+  }
+}
+@media only screen and (max-width: 767px) and (min-width: 500px) {
+  .font-size-1 p {
+    font-size: 13px;
+  }
+  .page.--right .page-footer-5 {
+    text-align: left;
+  }
+  .page-4 .edit-picture img {
+    width: 260px;
+    height: 220px;
+  }
+  .bg-content {
+    width: 90%;
+    margin: 10% auto;
+  }
+  .page-5 .edit-picture img {
+    width: 340px;
+    height: 270px;
+  }
+  .page-footer {
+    height: 10px;
+  }
+  .page-footer-3 {
+    height: 10px;
+  }
+  .page-text-7 li,
+  .content_page_8 li {
+    font-size: 13px;
+  }
+}
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+  .edit-content-page p {
+    font-size: 10px;
+  }
+  .edit-content-page {
+    width: 80%;
+    margin-left: 20%;
+  }
+  .content-black-color h6 {
+    font-size: 14px;
+  }
+  .content-black-color h5 {
+    font-size: 14px;
+  }
+  .content-black-color p {
+    font-size: 11px;
+    margin-bottom: 5px;
+  }
+  .page-footer-3 {
+    height: 10px;
+  }
+  .page-4 .edit-picture img {
+    width: 195px;
+    height: 150px;
+  }
+  .page-footer-4,
+  .page-footer-5,
+  .page-footer-7 {
+    height: 10px;
+  }
+  .content-black-color-page-4 p {
+    font-size: 11px;
+    margin-bottom: 5px;
+  }
+  .page-5 .edit-picture img {
+    width: 195px;
+    height: 150px;
+  }
+  .black-color li {
+    font-size: 11px;
+  }
+  .page-6-edit p {
+    font-size: 11px;
+    margin-bottom: 5px;
+  }
+  .page-text-7 p {
+    font-size: 11px;
+  }
+  .page-text-7 li {
+    font-size: 11px;
+  }
+  .page-text {
+    margin-top: 0;
+  }
+  .bg-content {
+    width: 90%;
+    margin: 5% auto;
+  }
+  .bg-content h5 {
+    font-size: 11px;
+  }
+  .bg-content li {
+    font-size: 10px;
+  }
+}
+@media only screen and (max-width: 1199px) and (min-width: 992px) {
+  .edit-content-page p {
+    font-size: 13px;
+  }
+  .content-black-color h6 {
+    font-size: 17px;
+  }
+  .content-black-color p {
+    margin-bottom: 5px;
+  }
+  .page-4 .edit-picture img {
+    width: 275px;
+    height: 205px;
+  }
+  .page-footer-3,
+  .page-footer-4,
+  .page-footer-5,
+  .page-footer-7 {
+    height: 10px;
+  }
+  .page-5 .edit-picture img {
+    width: 321px;
+    height: 249px;
+  }
+  .bg-content {
+    width: 90%;
+    margin: 10% auto;
+  }
+  .page-6-edit p {
+    margin-bottom: 10px;
+  }
+}

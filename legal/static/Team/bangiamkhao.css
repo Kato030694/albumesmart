@@ -1,0 +1,41 @@
+/* GIỚI THIỆU */
+.gt-1-1 {
+  background-image: url(./../../images/canvas/1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.gt-1-2 {
+  background-image: url(./../../images/canvas/2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* MẠNH LUÔNG */
+.btc-1-1 {
+  background-image: url(./../../images/canvas/Ban_To_Chuc/manh_luong/luông.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* NGUYÊN THÙY */
+.btc-2-1 {
+  background-image: url(./../../images/canvas/Ban_To_Chuc/nguyen_thuy/thuy.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* THÙY LINH */
+.btc-3-1 {
+  background-image: url(./../../images/canvas/Ban_To_Chuc/thuy_linh/linh.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* Xuân Trần */
+.btc-4-1 {
+  background-image: url(./../../images/canvas/Ban_To_Chuc/Xuan_Tran/xuan.jpg);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

@@ -1,0 +1,41 @@
+
+.gt-1{
+  background-image: url(./../../images/canvas/1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.gt-2{
+  background-image: url(./../../images/canvas/2.jpg) ;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* THỦY TIÊN */
+.btc-1-1 {
+  background-image: url(./../../images/canvas/Ban_To_Chuc/thuy_tien/tien.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* NGÂN TRÚC */
+.btc-2-1 {
+  background-image: url(./../../images/canvas/Ban_To_Chuc/ngan_truc/truc.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* THÙY TRANG */
+.btc-3-1 {
+  background-image: url(./../../images/canvas/Ban_To_Chuc/thuy_trang/trang.jpg) ;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* XUÂN DIỆU */
+.btc-4-1 {
+  background-image: url(./../../images/canvas/Ban_To_Chuc/xuan_dieu/dieu.jpg) ;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

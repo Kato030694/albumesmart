@@ -1,0 +1,27 @@
+/* GIỚI THIỆU */
+.gt-1-1 {
+  background-image: url(./../../images/canvas/1.jpg) !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.gt-1-2 {
+  background-image: url(./../../images/canvas/2.jpg) !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* CẨM */
+.btc-1-1 {
+  background-image: url(./../../images/canvas/cam/cam.jpg) !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* PHỤNG */
+.btc-2-1 {
+  background-image: url(./../../images/canvas/kim_phung/phung.jpg) !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
